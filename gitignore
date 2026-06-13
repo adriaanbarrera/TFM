@@ -1,0 +1,28 @@
+# API Keys — NUNCA subir
+.env
+
+# Datos — demasiado pesados para Git
+data/raw/
+data/processed/
+data/models/
+
+# Entorno virtual
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# IDEs
+.vscode/settings.json
+.idea/
+
+# Mac
+.DS_Store
+
+# Streamlit
+.streamlit/secrets.toml

@@ -1,0 +1,15 @@
+{
+  "precio": {
+    "mejor_modelo": "xgboost",
+    "notas": "buen predictor del precio"
+  },
+  "demanda": {
+    "mejor_modelo": "xgboost",
+    "mae": 8799.83,
+    "notas": "XGBoost claramente superior, MAE 8799 MW vs 13248 LSTM"
+  },
+  "modelos_produccion": {
+    "precio": "xgboost",
+    "demanda": "xgboost"
+  }
+}
